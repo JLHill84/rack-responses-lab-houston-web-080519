@@ -1,6 +1,6 @@
 class Application
   
-  if Time.now()
+  puts Time.now()
   
   
 end
