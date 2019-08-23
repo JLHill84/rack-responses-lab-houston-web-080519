@@ -1,14 +1,10 @@
 class Application
   
-  def initialize
     t = Time.now.hour
     if t <= 12
-      puts "Good Morning!"
+      writes "Good Morning!"
     else
-      puts "Good Afternoon!"
+      writes "Good Afternoon!"
     end
-  end
   
 end
-
-Application.new
