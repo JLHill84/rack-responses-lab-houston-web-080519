@@ -1,7 +1,7 @@
 class Application
   
   def initialize
-    puts Time.striptime()
+    puts Time.striptime(%H)
   end
   
 end
