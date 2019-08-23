@@ -2,9 +2,9 @@ class Application
   
     t = Time.now.hour
     if t <= 12
-      writes "Good Morning!"
+      write "Good Morning!"
     else
-      writes "Good Afternoon!"
+      write "Good Afternoon!"
     end
   
 end
