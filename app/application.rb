@@ -1,6 +1,7 @@
 class Application
   
-  puts Time.now()
-  
+  def initialize
+    puts Time.now()
+  end
   
 end
