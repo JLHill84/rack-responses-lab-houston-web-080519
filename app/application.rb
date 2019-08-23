@@ -1,7 +1,7 @@
 class Application
   
   def initialize
-    puts Time.hour
+    t = Time.hour
   end
   
 end
