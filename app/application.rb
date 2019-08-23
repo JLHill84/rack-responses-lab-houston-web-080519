@@ -2,7 +2,7 @@ class Application
   
   def initialize
     t = Time.now.hour
-    puts t
+    if t 
   end
   
 end
