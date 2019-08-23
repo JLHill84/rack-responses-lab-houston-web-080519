@@ -1,7 +1,7 @@
 class Application
   
   def initialize
-    puts Time.now()
+    puts Time.hour.now()
   end
   
 end
